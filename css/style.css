@@ -1,0 +1,114 @@
+/* var */
+:root {
+    --yelow-colr: #FFCD11;
+}
+
+
+/* header */
+
+.navbar{
+    background: url(../img/header-bg.png);
+    background-color: var(--yelow-colr);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    color: var(--yelow-colr);
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .face:hover {
+
+    background-color: #627AAD;
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .insta:hover {
+
+    background-color: #C13584;
+    color: #fff;
+}
+
+/* star weight */
+h3:hover{
+    color: var(--yelow-colr);
+}
+.weight .item {
+    border-radius: 20px;
+    color: #FFCD11;
+}
+
+.weight .item1 {
+    border-radius: 20px;
+}
+
+/* collapsible */
+
+.collapsible {
+    color: var(--yelow-colr);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: right;
+    outline: none;
+    font-size: 15px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid #ededf1 ;
+}
+
+
+.collapsible:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: left;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+/* services */
+.services{
+    background: url(../img/w4-bg.jpg);
+}
+/* contact-us */
+.contact-us .form{
+    margin: 0px 100px;
+}
+.contact-us .form input,textarea{
+    border-radius: 10px;
+    
+}
+.contact-us .form .btn-custom{
+    background-color: var(--yelow-colr);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+.contact-us .form .btn-custom:hover{
+    background-color:#F81965;
+
+}
+/* service */
+.users{
+    background-color: #fff;
+    border-radius: 20px;
+}
+.services .item{
+    border-radius: 20px;
+}
